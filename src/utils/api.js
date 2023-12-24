@@ -67,7 +67,6 @@ const api = (() => {
     if (status !== 'success') {
       throw new Error(message);
     }
-    alert(message);
 
     const {
       data: { token },

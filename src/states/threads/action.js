@@ -46,7 +46,7 @@ export function asyncReceiveThreadsActionCreator() {
       const threads = await api.getAllThreads();
       dispatch(receiveThreadsActionCreator(threads));
     } catch (error) {
-      console.error('Error fetching threads:', error);
+      alert(error.message);
     } finally {
       dispatch(hideLoading());
     }
