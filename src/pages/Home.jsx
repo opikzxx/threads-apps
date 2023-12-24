@@ -81,7 +81,7 @@ function Home() {
           </div>
           <div className="md:col-span-2 border-slate-200 border-2 p-2 md:ml-2 mt-2 md:mt-0 rounded-xl">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
+              <h2 className="text-md lg:text-xl font-bold text-gray-900 dark:text-white">
                 Kelasemen Pengguna Aktif
               </h2>
             </div>
