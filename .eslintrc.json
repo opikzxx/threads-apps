@@ -10,6 +10,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "plugins": ["react", "react-hooks", "cypress"],
     "rules": {
         "no-alert": "off",
         "react/jsx-props-no-spreading": "off",
